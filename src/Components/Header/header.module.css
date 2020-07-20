@@ -1,0 +1,37 @@
+.header{
+   flex:1 1 100%;
+   background-color: #1ab394;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 50px 0 50px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .header_title{
+   margin-left: 2px;
+   color:#fcfcfe;
+ }
+ .desc{
+   display:flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   align-items: center;
+   width: 300px;
+ }
+ .total{
+  color:#fcfcfe;
+  font-size: 18px;
+ }
+ .cart{
+   color:#fcfcfe;
+   font-size: 18px;
+   position: relative;
+   text-decoration: none;
+   transition: ease 1s;
+ }
+ .cart:hover{
+  color:#bd0101;
+ }
+
+ .link{
+    text-decoration: none;
+ }
